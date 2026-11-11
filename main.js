@@ -15,6 +15,36 @@
     return "";
   }
   function nonEmpty(v) { return textOf(v).trim() !== ""; }
+
+  // Converts *marked* text into italic <em> nodes. Use \* for a literal asterisk.
+  // Returns an array of strings and <em> elements suitable for passing to el().
+  function richText(doc, v) {
+    var s = textOf(v);
+    if (s === "") return [];
+    var out = [];
+    var buf = "";
+    var open = false;
+    for (var i = 0; i < s.length; i++) {
+      var ch = s.charAt(i);
+      if (ch === "\\" && i + 1 < s.length && s.charAt(i + 1) === "*") {
+        buf += "*"; i++; continue;
+      }
+      if (ch === "*") {
+        if (!open) {
+          if (buf !== "") { out.push(doc.createTextNode(buf)); buf = ""; }
+          open = true;
+        } else {
+          out.push(el(doc, "em", null, buf));
+          buf = ""; open = false;
+        }
+        continue;
+      }
+      buf += ch;
+    }
+    if (open) buf = "*" + buf; // unmatched opener: keep the asterisk literal
+    if (buf !== "") out.push(doc.createTextNode(buf));
+    return out;
+  }
   function toList(v) { return Array.isArray(v) ? v.filter(function (x) { return x !== null && x !== undefined; }) : []; }
   function isObject(v) { return v !== null && typeof v === "object" && !Array.isArray(v); }
 
@@ -102,7 +132,8 @@
     { key: "research", id: "research", heading: "Research Experience", nav: "Research", list: "entries" },
     { key: "projects", id: "projects", heading: "Selected Projects", nav: "Projects", list: "entries" },
     { key: "skills", id: "skills", heading: "Qualifications & Skills", nav: "Skills", list: "groups" },
-    { key: "activities", id: "activities", heading: "Extracurricular Activities", nav: "Activities", list: "entries" }
+    { key: "activities", id: "activities", heading: "Extracurricular Activities", nav: "Activities", list: "entries" },
+    { key: "awards", id: "awards", heading: "Honors & Awards", nav: "Awards", list: "entries" }
   ];
   function hasContent(def, block) {
     if (def.hasContent) return def.hasContent(block);
@@ -197,7 +228,7 @@
     var items = toList(bullets).filter(nonEmpty);
     if (!items.length) return null;
     var ul = el(doc, "ul", { "class": "entry-bullets" });
-    items.forEach(function (b) { ul.appendChild(el(doc, "li", null, textOf(b))); });
+    items.forEach(function (b) { ul.appendChild(el(doc, "li", null, richText(doc, b))); });
     return ul;
   }
   function joinMeta(parts) {
@@ -209,22 +240,22 @@
     maybeLogo(doc, h, e);
     var li = el(doc, "li", { "class": "entry" }, h.head,
       nonEmpty(e.location) ? el(doc, "p", { "class": "entry-meta" }, textOf(e.location)) : null,
-      nonEmpty(e.program) ? el(doc, "p", { "class": "entry-program" }, textOf(e.program)) : null,
+      nonEmpty(e.program) ? el(doc, "p", { "class": "entry-program" }, richText(doc, e.program)) : null,
       bulletList(doc, e.details));
     return li;
   }
   function renderExperienceEntry(doc, e) {
-    var h = entryHead(doc, el(doc, "h3", { "class": "entry-title" }, textOf(e.role)), e.dates);
+    var h = entryHead(doc, el(doc, "h3", { "class": "entry-title" }, richText(doc, e.role)), e.dates);
     maybeLogo(doc, h, e);
     var meta = joinMeta([e.organization, e.institution, e.location]);
     var li = el(doc, "li", { "class": "entry" }, h.head,
-      meta ? el(doc, "p", { "class": "entry-meta" }, meta) : null,
+      meta ? el(doc, "p", { "class": "entry-meta" }, richText(doc, meta)) : null,
       bulletList(doc, e.bullets));
     return li;
   }
   function renderProjectEntry(doc, e) {
     var href = safeHref(e.url);
-    var titleChild = href ? createLink(doc, href, textOf(e.title), "title-link") : textOf(e.title);
+    var titleChild = href ? createLink(doc, href, textOf(e.title), "title-link") : richText(doc, e.title);
     var h = entryHead(doc, el(doc, "h3", { "class": "entry-title" }, titleChild), e.date);
     var typeStr = textOf(e.type).trim();
     var metaKids = [];
@@ -247,7 +278,7 @@
     if (def.key === "about") {
       toList(block.summary).concat(typeof block.summary === "string" ? [] : []).length;
       var summaries = Array.isArray(block.summary) ? block.summary : [block.summary];
-      summaries.filter(nonEmpty).forEach(function (p) { section.appendChild(el(doc, "p", { "class": "summary" }, textOf(p))); });
+      summaries.filter(nonEmpty).forEach(function (p) { section.appendChild(el(doc, "p", { "class": "summary" }, richText(doc, p))); });
       var interests = toList(block.interests).filter(nonEmpty);
       if (interests.length) {
         section.appendChild(el(doc, "p", { "class": "label" }, nonEmpty(block.interestsLabel) ? textOf(block.interestsLabel) : "Research Interests"));
