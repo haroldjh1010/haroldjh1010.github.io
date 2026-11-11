@@ -99,14 +99,14 @@ window.SITE_DATA = {
     moreDetailsLabel: "And More...",
     moreDetailsUrl: "https://app.notion.com/p/Presentations-Team-Projects-3b203ee0f516808abbf5dcb825f42992",
     entries: [
-      { title: "Mechanical Impacts of Space Environment on Solid-State Batteries", type: "Report", venue: "*NSE4001 NSE Senior Thesis*", Yonsei University", date: "Present", url: "https://app.notion.com/p/Research-Proposal-3f103ee0f51680e08959fec665fbee77" },
+      { title: "Mechanical Impacts of Space Environment on Solid-State Batteries", type: "Report", venue: "*NSE4001 NSE Senior Thesis*, Yonsei University", date: "Present", url: "https://app.notion.com/p/Research-Proposal-3f103ee0f51680e08959fec665fbee77" },
       { title: "Research Trends Analysis Report: Cryogenic Batteries", type: "Report (Korean)", venue: "My Own Research Trends Analysis Report Contest, Yonsei University Library", date: "Aug 2026", url: "https://app.notion.com/p/Research-Trends-Analysis-Report-Contest-Summer-2026-Korean-3b303ee0f51680c2b3d9ea2f99762aa5" },
       { title: "XPS Analyses of Cathode Samples", type: "Presentation", venue: "Summer Intern 2nd Seminar, *Electrochemical Energy Storage Laboratory*", date: "Aug 2026", url: "https://app.notion.com/p/XPS-Analyses-of-Cathode-Samples-3c403ee0f51680799bc4ea63ec10e66e" },
       { title: "Making a Successful Movie with Film Database", type: "Presentation", venue: "*MS0003 Introduction to Data Science and Artificial Intelligence*, Nanyang Technological University", date: "Aug 2024", url: "https://app.notion.com/p/at-NTU-3b203ee0f516803f83c4d4224cbd9808" },
       { title: "Ideas to Improve Sodium Ion Batteries", type: "Presentation", venue: "*MST3310 Materials Research*, Yonsei University", date: "Jun 2024", url: "https://app.notion.com/p/Materials-Research-Spring-2024-3b303ee0f516801da2aed06e8057d52d" },
       { title: "Zinc-Air Batteries: Recent Trends and Advancements", type: "Poster", venue: "2024 ALLOY Materials Conference, *ALLOY*", date: "Jun 2024", url: "https://app.notion.com/p/2024-ALLOY-Materials-Conference-3b303ee0f51680cfa581ccc04ff16ec8" },
       { title: "Why Sodium Ion Batteries?", type: "Presentation", venue: "3-Minute Thesis Contest, King Abdullah University of Science and Technology (KAUST)", date: "May 2024", url: "https://app.notion.com/p/at-KAUST-3b203ee0f5168086b2fce1f4b5c07cc3" },
-      { title: "Improved Performances of High-Entropy Electrolytes with Additives", type: "Presentation", venue: "*MST3320 Materials Research 2: Capstone Design*", Yonsei University", date: "Dec 2023", url: "https://app.notion.com/p/Materials-Research-2-Capstone-Design-Fall-2023-3b303ee0f51680bea168d012bd9327b4" },
+      { title: "Improved Performances of High-Entropy Electrolytes with Additives", type: "Presentation", venue: "*MST3320 Materials Research 2: Capstone Design*, Yonsei University", date: "Dec 2023", url: "https://app.notion.com/p/Materials-Research-2-Capstone-Design-Fall-2023-3b303ee0f51680bea168d012bd9327b4" },
       { title: "Analysis of Battery Performance with Nickel Content in NCM Cathodes", type: "Poster (Korean)", venue: "2023 ALLOY Team Poster Presentation, *ALLOY*", date: "Dec 2023", url: "https://app.notion.com/p/2023-ALLOY-Team-Poster-Presentation-Korean-3b303ee0f516809a8b99e8a5cdf40fa1" },
       ]
   },
