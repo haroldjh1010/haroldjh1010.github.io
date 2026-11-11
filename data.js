@@ -46,11 +46,11 @@ window.SITE_DATA = {
       { institution: "Yonsei University", location: "Seoul, Republic of Korea", dates: "Mar 2021 – Feb 2027", program: "B.Eng. expected in Nano Science and Engineering & Materials Science and Engineering", details: [
           "Cumulative GPA: 3.93 / 4.30"
         ], logo: "logos/yonsei.jpg" },
-      { institution: "Nanyang Technological University", location: "Singapore, Republic of Singapore", dates: "Jun 2024 – Jul 2024", program: "Exchange Student, Global Education and Mobility Trailblazer", details: [
-          "Coursework: MS0003 Introduction to Data Science and Artificial Intelligence"
+      { institution: "Nanyang Technological University", location: "Singapore, Republic of Singapore", dates: "Jun 2024 – Jul 2024", program: "Exchange Student, *Global Education and Mobility Trailblazer*", details: [
+          "Coursework: *MS0003 Introduction to Data Science and Artificial Intelligence*"
         ], logo: "logos/ntu.png" },
-      { institution: "Shanghai Jiao Tong University", location: "Shanghai, People's Republic of China", dates: "Feb 2024 – Jun 2024", program: "Virtual Exchange Student, Jiao Tong Global Virtual Classroom", details: [
-          "Coursework: MSE2602 Materials Chemistry"
+      { institution: "Shanghai Jiao Tong University", location: "Shanghai, People's Republic of China", dates: "Feb 2024 – Jun 2024", program: "Virtual Exchange Student, *Jiao Tong Global Virtual Classroom*", details: [
+          "Coursework: *MSE2602 Materials Chemistry*"
         ], logo: "logos/sjtu.png" }
     ]
   },
@@ -59,15 +59,15 @@ window.SITE_DATA = {
     heading: "Research Experience",
     navLabel: "Research",
     entries: [
-      { role: "Undergraduate Researcher", organization: "Electrochemical Energy Storage Laboratory", institution: "Yonsei University", location: "", dates: "Jul 2026 – Present"
+      { role: "Undergraduate Researcher", organization: "*Electrochemical Energy Storage Laboratory*", institution: "Yonsei University", location: "", dates: "Jul 2026 – Present"
         },
-      { role: "Participant", organization: "My Own Research Trends Analysis Report Contest", institution: "Yonsei University Library", location: "", dates: "Aug 2026"
+      { role: "Participant", organization: "*My Own Research Trends Analysis Report Contest*", institution: "Yonsei University Library", location: "", dates: "Aug 2026"
         },
-      { role: "Undergraduate Researcher (Course-Integrated)", organization: "Advanced Nano-energy Materials Laboratory 21", institution: "Yonsei University", location: "", dates: "Mar 2024 – Jun 2024"
+      { role: "Undergraduate Researcher (Course-Integrated)", organization: "*Advanced Nano-energy Materials Laboratory 21*", institution: "Yonsei University", location: "", dates: "Mar 2024 – Jun 2024"
         },
-      { role: "Member, 2nd – 3rd Class", organization: "ALLOY (Academic Society of the Department of Materials Science and Engineering at Yonsei)", institution: "Yonsei University", location: "", dates: "Sep 2023 – Jun 2024"
+      { role: "Member, 2nd – 3rd Class", organization: "*ALLOY (Academic Society of the Department of Materials Science and Engineering)*", institution: "Yonsei University", location: "", dates: "Sep 2023 – Jun 2024"
         },
-      { role: "Undergraduate Researcher (Course-Integrated)", organization: "Electrochemical Energy Storage Laboratory", institution: "Yonsei University", location: "", dates: "Sep 2023 – Dec 2023"
+      { role: "Undergraduate Researcher (Course-Integrated)", organization: "*Electrochemical Energy Storage Laboratory*", institution: "Yonsei University", location: "", dates: "Sep 2023 – Dec 2023"
         }
     ]
   },
@@ -116,15 +116,15 @@ window.SITE_DATA = {
     heading: "Honors & Awards",
     navLabel: "Awards",
     entries: [
-      { role: "Responsibility Award (Colonel Award)", organization: "Quartermaster Training Group", institution: "ROK Army", location: "", dates: "Feb 2026"
+      { role: "Responsibility Award (Colonel Award)", organization: "*Quartermaster Training Group*", institution: "ROK Army", location: "", dates: "Feb 2026"
         },
-      { role: "Overseas Exchange Promotion Scholarship", organization: "Office of International Affairs", institution: "Yonsei University", location: "", dates: "Jun 2024"
+      { role: "Overseas Exchange Promotion Scholarship", organization: "*Office of International Affairs*", institution: "Yonsei University", location: "", dates: "Jun 2024"
         },
       { role: "Underwood Jilli Scholarship (Merit-based Scholarship)", organization: "Yonsei University", institution: "", location: "", dates: "Feb 2024"
         },
-      { role: "Outstanding Study Group Award (Psychology of Abnormal Behavior)", organization: "Innovation Center for Teaching and Learning", institution: "Yonsei University", location: "", dates: "Jan 2023"
+      { role: "Outstanding Study Group Award (Psychology of Abnormal Behavior)", organization: "*Innovation Center for Teaching and Learning*", institution: "Yonsei University", location: "", dates: "Jan 2023"
         },
-      { role: "Outstanding Study Group Award (Physical Chemistry (1))", organization: "Innovation Center for Teaching and Learning", institution: "Yonsei University", location: "", dates: "Aug 2022"
+      { role: "Outstanding Study Group Award (Physical Chemistry (1))", organization: "*Innovation Center for Teaching and Learning*", institution: "Yonsei University", location: "", dates: "Aug 2022"
         }
     ]
   },
