@@ -44,13 +44,13 @@ window.SITE_DATA = {
     entries: [
       { institution: "Yonsei University", location: "Seoul, Republic of Korea", dates: "Mar 2021 – Feb 2027", program: "B.Eng. expected in Nano Science and Engineering & Materials Science and Engineering", details: [
           "Cumulative GPA: 3.93 / 4.30"
-        ], logo: "logos/yonsei.svg" },
+        ], logo: "logos/yonsei.jpg" },
       { institution: "Nanyang Technological University", location: "Singapore, Republic of Singapore", dates: "Jun 2024 – Jul 2024", program: "Exchange Student, Global Education and Mobility Trailblazer", details: [
           "Coursework: MS0003 Introduction to Data Science and Artificial Intelligence"
-        ], logo: "logos/ntu.svg" },
+        ], logo: "logos/ntu.png" },
       { institution: "Shanghai Jiao Tong University", location: "Shanghai, People's Republic of China", dates: "Feb 2024 – Jun 2024", program: "Virtual Exchange Student, Jiao Tong Global Virtual Classroom", details: [
           "Coursework: MSE2602 Materials Chemistry"
-        ], logo: "logos/sjtu.svg" }
+        ], logo: "logos/sjtu.png" }
     ]
   },
   // [연구 경험 Research] 항목 필드: role, organization, institution, location, dates, bullets[]
@@ -136,7 +136,7 @@ window.SITE_DATA = {
           "Mastered research ethics and persuasive scientific presentation skills, culminating in the 3-Minute-Thesis competition",
           "Surveyed cutting-edge experimental instrumentation and advanced research infrastructure through intensive facility tours",
           "Cultivated cross-cultural networks with 19 other international prospective undergraduate researchers and with KAUST researchers"
-        ], logo: "logos/kaust.svg" },
+        ], logo: "logos/kaust.png" },
       { role: "Member, Translation Team", organization: "Yours (the 57th Yonsei University General Student Council Campaign Team)", institution: "", location: "", dates: "Nov 2023 – Dec 2023", bullets: [
           "Translated the education pledges from Korean into English for non-Korean Yonsei students",
           "Engaged in lecture-hall advocacy rallies and choreography campaigns, contributing to the election of the first general student council in three consecutive years"
