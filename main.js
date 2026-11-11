@@ -255,7 +255,7 @@
   }
   function renderProjectEntry(doc, e) {
     var href = safeHref(e.url);
-    var titleChild = href ? createLink(doc, href, textOf(e.title), "title-link") : richText(doc, e.title);
+    var titleChild = href ? createLink(doc, href, richText(doc, e.title), "title-link") : richText(doc, e.title);
     var h = entryHead(doc, el(doc, "h3", { "class": "entry-title" }, titleChild), e.date);
     var typeStr = textOf(e.type).trim();
     var metaKids = [];
