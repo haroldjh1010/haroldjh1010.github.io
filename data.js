@@ -27,14 +27,14 @@ window.SITE_DATA = {
   about: {
     heading: "About",
     navLabel: "About",
-    summary: "I am an undergraduate student at Yonsei University, expecting a B.Eng. in Nano Science and Engineering & Materials Science and Engineering in February 2027. My research focuses on battery materials. As an Undergraduate Researcher at the Electrochemical Energy Storage Laboratory (EESL), I study ways to expand the low-temperature operating range of batteries and analyze X-ray-based characterization data of Electrode-Electrolyte Interphases (EEIs).",
+    summary: "I am a senior undergraduate student at Yonsei University, expecting a B.Eng. in Nano Science and Engineering & Materials Science and Engineering in February 2027. My research focuses on battery materials, and as an undergraduate researcher, I study ways to expand the low-temperature operating range of batteries by analyzing X-ray-based characterization data of Electrode-Electrolyte Interphases (EEIs).",
     interestsLabel: "Research Interests",
     interests: [
+      "Space Batteries",
       "Low-Temperature (Cryogenic) Batteries",
       "Solid-State Electrolytes",
       "Sodium-Ion Batteries",
       "X-ray Spectroscopies",
-      "Space Batteries"
     ]
   },
   // [학력 Education] 항목 필드: institution, location, dates, program, details[], logo(선택)
@@ -71,26 +71,7 @@ window.SITE_DATA = {
         }
     ]
   },
-  // [주요 프로젝트 Projects] 항목 필드: title, type, venue, date, url
-  // 링크 바꾸기: url 값을 원하는 주소로 바꾸세요. url을 "" 로 두면 링크 없이 제목만 보입니다.
-  projects: {
-    heading: "Selected Projects",
-    navLabel: "Projects",
-    moreDetailsLabel: "More Details",
-    moreDetailsUrl: "https://app.notion.com/p/Presentations-Team-Projects-3b203ee0f516808abbf5dcb825f42992",
-    entries: [
-      { title: "Mechanical Impacts of Space Environment on Solid-State Batteries", type: "Report", venue: "NSE4001, Yonsei University", date: "Present", url: "https://app.notion.com/p/Research-Proposal-3f103ee0f51680e08959fec665fbee77" },
-      { title: "Research Trends Analysis Report: Cryogenic Batteries", type: "Report (Korean)", venue: "My Own Research Trends Analysis Report Contest, Yonsei University Library", date: "Aug 2026", url: "https://app.notion.com/p/Research-Trends-Analysis-Report-Contest-Summer-2026-Korean-3b303ee0f51680c2b3d9ea2f99762aa5" },
-      { title: "XPS Analyses of Cathode Samples", type: "Presentation", venue: "Summer Intern 2nd Seminar, EESL", date: "Aug 2026", url: "https://app.notion.com/p/XPS-Analyses-of-Cathode-Samples-3c403ee0f51680799bc4ea63ec10e66e" },
-      { title: "Making a Successful Movie with Film Database", type: "Presentation", venue: "MS0003, Nanyang Technological University", date: "Aug 2024", url: "https://app.notion.com/p/at-NTU-3b203ee0f516803f83c4d4224cbd9808" },
-      { title: "Ideas to Improve Sodium Ion Batteries", type: "Presentation", venue: "MST3310, Yonsei University", date: "Jun 2024", url: "https://app.notion.com/p/Materials-Research-Spring-2024-3b303ee0f516801da2aed06e8057d52d" },
-      { title: "Zinc-Air Batteries: Recent Trends and Advancements", type: "Poster", venue: "2024 ALLOY Materials Conference, ALLOY", date: "Jun 2024", url: "https://app.notion.com/p/2024-ALLOY-Materials-Conference-3b303ee0f51680cfa581ccc04ff16ec8" },
-      { title: "Why Sodium Ion Batteries?", type: "Presentation", venue: "3-Minute Thesis Contest, King Abdullah University of Science and Technology (KAUST)", date: "May 2024", url: "https://app.notion.com/p/at-KAUST-3b203ee0f5168086b2fce1f4b5c07cc3" },
-      { title: "Improved Performances of High-Entropy Electrolytes with Additives", type: "Presentation", venue: "MST3320, Yonsei University", date: "Dec 2023", url: "https://app.notion.com/p/Materials-Research-2-Capstone-Design-Fall-2023-3b303ee0f51680bea168d012bd9327b4" },
-      { title: "Analysis of Battery Performance with Nickel Content in NCM Cathodes", type: "Poster (Korean)", venue: "2023 ALLOY Team Poster Presentation, ALLOY", date: "Dec 2023", url: "https://app.notion.com/p/2023-ALLOY-Team-Poster-Presentation-Korean-3b303ee0f516809a8b99e8a5cdf40fa1" },
-      ]
-  },
-  // [기능 · 보유 기술 Skills] 그룹 필드: label, items[]
+   // [기능 · 보유 기술 Skills] 그룹 필드: label, items[]
   skills: {
     heading: "Qualifications & Skills",
     navLabel: "Skills",
@@ -109,6 +90,25 @@ window.SITE_DATA = {
           "Mandarin Chinese (Intermediate)"
         ] }
     ]
+  },
+  // [주요 프로젝트 Projects] 항목 필드: title, type, venue, date, url
+  // 링크 바꾸기: url 값을 원하는 주소로 바꾸세요. url을 "" 로 두면 링크 없이 제목만 보입니다.
+  projects: {
+    heading: "Selected Projects",
+    navLabel: "Projects",
+    moreDetailsLabel: "And More...",
+    moreDetailsUrl: "https://app.notion.com/p/Presentations-Team-Projects-3b203ee0f516808abbf5dcb825f42992",
+    entries: [
+      { title: "Mechanical Impacts of Space Environment on Solid-State Batteries", type: "Report", venue: "NSE4001, Yonsei University", date: "Present", url: "https://app.notion.com/p/Research-Proposal-3f103ee0f51680e08959fec665fbee77" },
+      { title: "Research Trends Analysis Report: Cryogenic Batteries", type: "Report (Korean)", venue: "My Own Research Trends Analysis Report Contest, Yonsei University Library", date: "Aug 2026", url: "https://app.notion.com/p/Research-Trends-Analysis-Report-Contest-Summer-2026-Korean-3b303ee0f51680c2b3d9ea2f99762aa5" },
+      { title: "XPS Analyses of Cathode Samples", type: "Presentation", venue: "Summer Intern 2nd Seminar, EESL", date: "Aug 2026", url: "https://app.notion.com/p/XPS-Analyses-of-Cathode-Samples-3c403ee0f51680799bc4ea63ec10e66e" },
+      { title: "Making a Successful Movie with Film Database", type: "Presentation", venue: "MS0003, Nanyang Technological University", date: "Aug 2024", url: "https://app.notion.com/p/at-NTU-3b203ee0f516803f83c4d4224cbd9808" },
+      { title: "Ideas to Improve Sodium Ion Batteries", type: "Presentation", venue: "MST3310, Yonsei University", date: "Jun 2024", url: "https://app.notion.com/p/Materials-Research-Spring-2024-3b303ee0f516801da2aed06e8057d52d" },
+      { title: "Zinc-Air Batteries: Recent Trends and Advancements", type: "Poster", venue: "2024 ALLOY Materials Conference, ALLOY", date: "Jun 2024", url: "https://app.notion.com/p/2024-ALLOY-Materials-Conference-3b303ee0f51680cfa581ccc04ff16ec8" },
+      { title: "Why Sodium Ion Batteries?", type: "Presentation", venue: "3-Minute Thesis Contest, King Abdullah University of Science and Technology (KAUST)", date: "May 2024", url: "https://app.notion.com/p/at-KAUST-3b203ee0f5168086b2fce1f4b5c07cc3" },
+      { title: "Improved Performances of High-Entropy Electrolytes with Additives", type: "Presentation", venue: "MST3320, Yonsei University", date: "Dec 2023", url: "https://app.notion.com/p/Materials-Research-2-Capstone-Design-Fall-2023-3b303ee0f51680bea168d012bd9327b4" },
+      { title: "Analysis of Battery Performance with Nickel Content in NCM Cathodes", type: "Poster (Korean)", venue: "2023 ALLOY Team Poster Presentation, ALLOY", date: "Dec 2023", url: "https://app.notion.com/p/2023-ALLOY-Team-Poster-Presentation-Korean-3b303ee0f516809a8b99e8a5cdf40fa1" },
+      ]
   },
   // [대외활동 Activities] 항목 필드: role, organization, institution, location, dates, bullets[], logo(선택)
   // 로고 빼기: logo 줄을 지우거나 logo: "" 로 두면 됩니다.
@@ -132,7 +132,7 @@ window.SITE_DATA = {
         },
       { role: "Private Tutor", organization: "Seoltab", institution: "", location: "", dates: "Sep 2021 – Dec 2024"
         },
-      { role: "Member", organization: "14.5th Class", institution: "Yonsei University General Student Club", location: "", dates: "Sep 2021 – Dec 2021"
+      { role: "Member", organization: "14.5th Class", institution: "Piano In Yonsei (Yonsei University General Student Club)", location: "", dates: "Sep 2021 – Dec 2021"
         }
     ]
   },
