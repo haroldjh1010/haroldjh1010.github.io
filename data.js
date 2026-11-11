@@ -1,14 +1,5 @@
-/*
- * data.js : 이 파일 하나만 고치면 홈페이지 내용이 바뀝니다.
- * 수정 규칙
- *  1) 글자는 큰따옴표 "..." 안에 씩니다. 값 사이에는 쉼표(,)를 빼면 안 됩니다.
- *  2) 기간은 "Mar 2021 – Feb 2027"처럼 en dash(–)를 씨요. 진행 중이면 "Present".
- *  3) 저장 후 index.html을 새로고침하세요. "Could not read data.js"가 보이면
- *     방금 고친 부분의 쉼표와 따옴표를 확인하세요.
- */
 window.SITE_DATA = {
-  // [프로필 Profile] 이름, 한 줄 소개, 소속, 위치, 이메일, 사진 파일명, CV PDF 경로
-  // 사진 넣기: personal-homepage 폴더에 profile.jpg 를 넣으면 자동으로 바뀝니다.
+
   profile: {
     name: "Jeonghyeon KIM",
     initials: "JK",
@@ -23,7 +14,8 @@ window.SITE_DATA = {
     cvPdf: "",
     cvLabel: "Download CV"
   },
-  // [소개 About] 요약 문단과 관심 분야 목록
+
+  
   about: {
     heading: "About",
     navLabel: "About",
@@ -37,8 +29,8 @@ window.SITE_DATA = {
       "X-ray Spectroscopies",
     ]
   },
-  // [학력 Education] 항목 필드: institution, location, dates, program, details[], logo(선택)
-  // 로고 빼기: logo 줄을 지우거나 logo: "" 로 두면 됩니다. 바꿀 때는 logos 폴더에 파일을 넣고 경로를 고치세요.
+
+  
   education: {
     heading: "Education",
     navLabel: "Education",
@@ -54,7 +46,8 @@ window.SITE_DATA = {
         ], logo: "logos/sjtu.png" }
     ]
   },
-  // [연구 경험 Research] 항목 필드: role, organization, institution, location, dates
+
+  
   research: {
     heading: "Research Experience",
     navLabel: "Research",
@@ -71,7 +64,8 @@ window.SITE_DATA = {
         }
     ]
   },
-   // [기능 · 보유 기술 Skills] 그룹 필드: label, items[]
+
+  
   skills: {
     heading: "Qualifications & Skills",
     navLabel: "Skills",
@@ -91,8 +85,8 @@ window.SITE_DATA = {
         ] }
     ]
   },
-  // [주요 프로젝트 Projects] 항목 필드: title, type, venue, date, url
-  // 링크 바꾸기: url 값을 원하는 주소로 바꾸세요. url을 "" 로 두면 링크 없이 제목만 보입니다.
+
+  
   projects: {
     heading: "Selected Projects",
     navLabel: "Projects",
@@ -110,8 +104,8 @@ window.SITE_DATA = {
       { title: "Analysis of Battery Performance with Nickel Content in NCM Cathodes", type: "Poster (Korean)", venue: "2023 ALLOY Team Poster Presentation, *ALLOY*", date: "Dec 2023", url: "https://app.notion.com/p/2023-ALLOY-Team-Poster-Presentation-Korean-3b303ee0f516809a8b99e8a5cdf40fa1" },
       ]
   },
-  // [대외활동 Activities] 항목 필드: role, organization, institution, location, dates, bullets[], logo(선택)
-  // 로고 빼기: logo 줄을 지우거나 logo: "" 로 두면 됩니다.
+
+  
   awards: {
     heading: "Honors & Awards",
     navLabel: "Awards",
@@ -128,6 +122,8 @@ window.SITE_DATA = {
         }
     ]
   },
+  
+  
   activities: {
     heading: "Extracurricular Activities",
     navLabel: "Activities",
@@ -154,9 +150,10 @@ window.SITE_DATA = {
         }
     ]
   },
-  // [바닥글 Footer]
+
+  
   footer: {
     copyright: "© 2026 Jeonghyeon KIM",
-    lastUpdated: "Last updated: November 2026"
+    lastUpdated: "Last updated: Nov 2026"
   }
 };
