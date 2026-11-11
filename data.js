@@ -145,7 +145,7 @@ window.SITE_DATA = {
       { role: "Staff", organization: "2023 UIC Career Fair", institution: "Underwood International College, Yonsei University", location: "", dates: "Aug 2023"
         },
       { role: "Member", organization: "1st Class", institution: "*Bansugak (Yonsei University Nano Sceince and Engineering Major Student Club)*", location: "", dates: "Mar 2023 – Jun 2023"
-        }
+        },
       { role: "Vice President", organization: "*CoNSEnt (the 7th Yonsei University Nano Science and Engineering Major Student Council)*", institution: "", location: "", dates: "Apr 2022 – Dec 2022"
         },
       { role: "Private Tutor", organization: "Seoltab", institution: "", location: "", dates: "Sep 2021 – Dec 2024"
