@@ -27,13 +27,13 @@ window.SITE_DATA = {
   about: {
     heading: "About",
     navLabel: "About",
-    summary: "I am an undergraduate student at Yonsei University, expecting a B.Eng. in Nano Science and Engineering & Materials Science and Engineering in February 2027. My research focuses on battery materials. As an Undergraduate Researcher at the Electrochemical Energy Storage Laboratory (EESL), I study ways to expand the low-temperature operating range of solid-state batteries and analyze X-ray Photoelectron Spectroscopy (XPS) data of Sodium Ion Battery cathode samples.",
+    summary: "I am an undergraduate student at Yonsei University, expecting a B.Eng. in Nano Science and Engineering & Materials Science and Engineering in February 2027. My research focuses on battery materials. As an Undergraduate Researcher at the Electrochemical Energy Storage Laboratory (EESL), I study ways to expand the low-temperature operating range of batteries and analyze X-ray-based characterization data of Electrode-Electrolyte Interphases (EEIs).",
     interestsLabel: "Research Interests",
     interests: [
-      "Sodium Ion Batteries",
-      "Solid-State Batteries",
-      "Low-Temperature (Cryogenic) Battery Operation",
-      "X-ray Photoelectron Spectroscopy"
+      "Low-Temperature (Cryogenic) Batteries",
+      "Solid-State Electrolytes",
+      "Sodium-Ion Batteries",
+      "X-ray Spectroscopies"
     ]
   },
   // [학력 Education] 항목 필드: institution, location, dates, program, details[], logo(선택)
