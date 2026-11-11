@@ -112,6 +112,22 @@ window.SITE_DATA = {
   },
   // [대외활동 Activities] 항목 필드: role, organization, institution, location, dates, bullets[], logo(선택)
   // 로고 빼기: logo 줄을 지우거나 logo: "" 로 두면 됩니다.
+  awards: {
+    heading: "Honors & Awards",
+    navLabel: "Awards",
+    entries: [
+      { role: "Responsibility Award (Colonel Award)", organization: "Quartermaster Training Group", institution: "ROK Army", location: "", dates: "Feb 2026"
+        },
+      { role: "Overseas Exchange Promotion Scholarship", organization: "Office of International Affairs", institution: "Yonsei University", location: "", dates: "Jun 2024"
+        },
+      { role: "Underwood Jilli Scholarship (Merit-based Scholarship)", organization: "Yonsei University", institution: "", location: "", dates: "Feb 2024"
+        },
+      { role: "Outstanding Study Group Award (Psychology of Abnormal Behavior)", organization: "Innovation Center for Teaching and Learning", institution: "Yonsei University", location: "", dates: "Jan 2023"
+        },
+      { role: "Outstanding Study Group Award (Physical Chemistry (1))", organization: "Innovation Center for Teaching and Learning", institution: "Yonsei University", location: "", dates: "Aug 2022"
+        }
+    ]
+  },
   activities: {
     heading: "Extracurricular Activities",
     navLabel: "Activities",
