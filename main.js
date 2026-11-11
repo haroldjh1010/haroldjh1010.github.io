@@ -265,7 +265,7 @@
       if (dt) badge.setAttribute("data-type", dt);
       metaKids.push(badge);
     }
-    if (nonEmpty(e.venue)) metaKids.push(el(doc, "span", { "class": "entry-venue" }, textOf(e.venue)));
+    if (nonEmpty(e.venue)) metaKids.push(el(doc, "span", { "class": "entry-venue" }, richText(doc, e.venue)));
     var li = el(doc, "li", { "class": "entry entry--project" }, h.head,
       metaKids.length ? el(doc, "p", { "class": "entry-meta" }, metaKids) : null);
     return li;
